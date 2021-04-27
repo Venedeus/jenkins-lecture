@@ -67,11 +67,11 @@
         </dependency>
 
         <!-- Runner to execute tests on the JUnit Platform in a JUnit 4 -->
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-runner</artifactId>
-            <version>1.8.0-M1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.junit.platform</groupId>-->
+<!--            <artifactId>junit-platform-runner</artifactId>-->
+<!--            <version>1.8.0-M1</version>-->
+<!--        </dependency>-->
         <!--JUnit Vintage Engine to run JUnit 4 Tests -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
