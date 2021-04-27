@@ -4,19 +4,17 @@ pipeline {
     stages {
         stage('Clone Git repo') {
             steps {
-                bat "rmdir /s /q jenkins-lecture"
-                bat "git clone https://github.com/Venedeus/jenkins-lecture.git"
-                bat "mvn clean -f jenkins-lecture"
+                bat "mvn clean"
             }
         }
         stage("Test") {
             steps {
-                bat "mvn test -f jenkins-lecture"
+                bat "mvn test"
             }
         }
         stage("Package") {
             steps {
-                bat "mvn package -f jenkins-lecture"
+                bat "mvn package"
             }
         }
     }
