@@ -11,6 +11,8 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>30121987</sonar.password>
     </properties>
 
     <dependencies>
